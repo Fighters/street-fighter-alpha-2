@@ -1,0 +1,74 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Chun-Li"
+		},
+		{
+			"region": "japan",
+			"roman": "Chun-Li",
+			"original": "チュンリー"
+		}
+	],
+	"images": {
+		"face": "chunli.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Koshuto",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Ryuseiraku",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],		
+		"{unique-attacks}": [
+			{
+				"name": "Kakukyakuraku",
+				"input": ":df:+[HK]"
+			},
+			{
+				"name": "Yosokyaku",
+				"input": "{inAir}, :d:+[MK] {upTo3x}"
+			},
+			{
+				"name": "Wall Jump",
+				"input": "{duringJumpNearWall}, :f:"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Hyakuretsukyaku",
+				"input": "{tapKick}"
+			},
+			{
+				"name": "Kikoken",
+				"input": ":hcf:+[P]"
+			},
+			{
+				"name": "Tenshokyaku",
+				"input": "{charge} :d: :u:+[K]"
+			},
+			{
+				"name": "Senenshu",
+				"input": ":hcb:+[K]"
+			}				
+		],
+		"{super-combo}": [
+			{
+				"name": "Kikosho",
+				"input": ":qcf::qcf:+[P]"
+			},
+			{
+				"name": "Senretsukyaku",
+				"input": "{charge} :b: :f::b::f:+[K]"
+			},
+			{
+				"name": "Hazan Tenshokyaku",
+				"input": "{charge} :db: :df::db::uf:+[K]"
+			}
+		]
+	}
+}

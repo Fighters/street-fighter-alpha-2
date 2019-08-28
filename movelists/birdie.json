@@ -1,0 +1,62 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Birdie"
+		},
+		{
+			"region": "japan",
+			"roman": "Birdie",
+			"original": "バーディー"
+		}
+	],
+	"images": {
+		"face": "birdie.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Bull Spike",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Bad Throw",
+				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+			}
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Body Slam",
+				"input": "{inAir} :d:+[HP]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Bull Horn",
+				"input": "{hold} [P]+[P] {or} [K]+[K] {then} {release}"
+			},
+			{
+				"name": "Bull Head",
+				"input": "{charge} :b: :f:+[P]"
+			},
+			{
+				"name": "Murderer Chain",
+				"input": ":360:+[P]"
+			},
+			{
+				"name": "Bandit Chain",
+				"input": ":360:+[K]"
+			}
+		],
+		"{super-combo}": [
+			{
+				"name": "The Birdie",
+				"input": "{charge} :b: :f::b::f:+[P]"
+			},
+			{
+				"name": "Bull Revenger",
+				"input": ":qcd::d::df:+[P] {or} [K]"
+			}
+		]
+	}
+}

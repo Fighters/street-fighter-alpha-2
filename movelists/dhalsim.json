@@ -1,0 +1,86 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Dhalsim"
+		},
+		{
+			"region": "japan",
+			"roman": "Dhalsim",
+			"original": "ダルシム"
+				}
+	],
+	"images": {
+		"face": "dhalsim.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Yoga Smash",
+				"input": "{close} :b: {or} :f:+[MP]"
+			},
+			{
+				"name": "Yoga Throw",
+				"input": "{close} :b: {or} :f:+[HP]"
+			}
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Short Limb",
+				"input": ":b: {or} :db:+[P] {or} [K]"
+			},
+			{
+				"name": "Yoga Shock",
+				"input": ":b:+{hold} [LP]"
+			},
+			{
+				"name": "Yoga Palm",
+				"input": ":f:+[LP]"
+			},
+			{
+				"name": "Yoga Mummy",
+				"input": "{inAir} :d:+[HP]"
+			},
+			{
+				"name": "Drill Kick",
+				"input": "{inAir} :d:+[K]"
+			},
+			{
+				"name": "Jumping Taunt",
+				"input": "{inAir} {press} [taunt]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Yoga Fire",
+				"input": ":qcf:+[P]"
+			},
+			{
+				"name": "Yoga Flame",
+				"input": ":hcb:+[P]"
+			},
+			{
+				"name": "Yoga Blast",
+				"input": ":hcb:+[K]"
+			},
+			{
+				"name": "Yoga Teleport",
+				"input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK] ({airOK})"
+			},
+			{
+				"name": "Yoga Escape",
+				"input": "{whenKnockedDown} :b::db::d:+[K]"
+			}
+		],
+		"{super-combo}": [
+			{
+				"name": "Yoga Inferno",
+				"input": ":qcf::qcf:+[P]"
+			},
+			{
+				"name": "Yoga Strike",
+				"input": ":qcf::d::df:+[K]"
+			}
+		]
+	}
+}

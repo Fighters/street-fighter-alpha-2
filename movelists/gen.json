@@ -1,0 +1,158 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Gen"
+		},
+		{
+			"region": "japan",
+			"roman": "Gen",
+			"original": "元"
+		}
+	],
+	"images": {
+		"face": "gen.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Shuraku",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Hozen",
+				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+			}
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Change Style: Mantis",
+				"input": "[LP]+[MP]+[HP] ({airOK})"
+			},
+			{
+				"name": "Change Style: Crane",
+				"input": "[LK]+[MK]+[HK] ({airOK})"
+			},
+			{
+				"name": "[Crane] Shakudan",
+				"input": "{inAir} [HK] > [HK]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "[Mantis] Hyakurenko",
+				"input": "{tapPunch}"
+			},
+			{
+				"name": "[Mantis] Gekiro",
+				"input": ":dp:+[K] ({tapKick} {forMoreHits})"
+			},
+			{
+				"name": "[Crane] Jasen",
+				"input": "{charge} :b: :f:+[P]"
+			},
+			{
+				"name": "[Crane] Oga",
+				"input": "{charge} :d: :u:+[K]"
+			},
+			{
+				"name": "[Crane] Sudden Stop",
+				"input": ":b:",
+				"after": "[Crane] Oga"
+			},
+			{
+				"name": "[Crane] Close Kick",
+				"input": ":n: {or} :d:",
+				"after": "[Crane] Oga"
+			},
+			{
+				"name": "[Crane] Far Kick",
+				"input": ":df: {or} :f:",
+				"after": "[Crane] Oga"
+			},
+			{
+				"name": "[Crane] Ceiling Jump",
+				"input": ":ub: {or} :u: {or} :uf:",
+				"after": "[Crane] Oga"
+			},
+			{
+				"name": "[Crane] Falling Kick",
+				"input": ":d:",
+				"after": "[Crane] Ceiling Jump"
+			},
+			{
+				"name": "[Crane] Close Range Kick Right",
+				"input": ":df: {or} :f:",
+				"after": "[Crane] Ceiling Jump"
+			},
+			{
+				"name": "[Crane] Close Range Kick Left",
+				"input": ":db: {or} :b:",
+				"after": "[Crane] Ceiling Jump"
+			}
+		],
+		"{super-combo}": [
+			{
+				"name": "[Mantis] Zan'ei",
+				"input": ":qcf::qcf:+[P]"
+			},
+			{
+				"name": "[Mantis] Shitenshu",
+				"input": ":qcb::qcb:+[P]"
+			},
+			{
+				"name": "[Crane] Jyakoha",
+				"input": ":qcf::d::df:+[K]"
+			},
+			{
+				"name": "[Crane] Koga",
+				"input": "{inAir} :qcb::qcb:+[K]"
+			},
+			{
+				"name": "[Crane] Left Wall Kick",
+				"input": "[LK]",
+				"after": "[Crane] Koga"
+			},
+			{
+				"name": "[Crane] Second Kick",
+				"input": "[MK] {or} {doNothing}",
+				"after": "[Crane] Left Wall Kick"
+			},
+			{
+				"name": "[Crane] Long Kick",
+				"input": "[HK]",
+				"after": "[Crane] Left Wall Kick"
+			},
+			{
+				"name": "[Crane] Ceiling Stomp",
+				"input": "[MK]",
+				"after": "[Crane] Koga"
+			},
+			{
+				"name": "[Crane] Left Wall Dive",
+				"input": "[LK]",
+				"after": "[Crane] Ceiling Stomp"
+			},
+			{
+				"name": "[Crane] Right Wall Dive",
+				"input": "[HK]",
+				"after": "[Crane] Ceiling Stomp"
+			},
+			{
+				"name": "[Crane] Right Wall Kick",
+				"input": "[HK]",
+				"after": "[Crane] Koga"
+			}
+			{
+				"name": "[Crane] Second Kick",
+				"input": "[MK] {or} {doNothing}",
+				"after": "[Crane] Right Wall Kick"
+			},
+			{
+				"name": "[Crane] Long Kick",
+				"input": "[LK]",
+				"after": "[Crane] Right Wall Kick"
+			}
+		]
+	}
+}

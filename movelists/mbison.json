@@ -1,0 +1,65 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "M. Bison"
+		},
+		{
+			"region": "japan",
+			"roman": "Vega",
+			"original": "ベガ"
+		}
+	],
+	"images": {
+		"face": "mbison.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Deadly Throw",
+				"input": "{close} :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Psycho Fall",
+				"input": "{inAirAndClose} :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Psycho Shot",
+				"input": "{charge} :b: :f:+[P]"
+			},
+			{
+				"name": "Double Knee Press",
+				"input": "{charge} :b: :f:+[K]"
+			},
+			{
+				"name": "Devil Reverse",
+				"input": "{charge} :d: :u:+[P] ({use} :b: {or} :n: {or} :f:+[P] {toAttack})"
+			},
+			{
+				"name": "Head Press",
+				"input": "{charge} :d: :u:+[K] ({use} :b: {or} :f: {toChangeTrajectory} {onHit})"
+			},
+			{
+				"name": "Somersault Skull Diver",
+				"input": "[P]",
+				"after": "Head Press"
+			},
+			{
+				"name": "Bison Warp",
+				"input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+			}
+		],
+		"{super-combo}": [
+			{
+				"name": "Psycho Crusher",
+				"input": "{charge} :b: :f::b::f:+[P]"
+			},
+			{
+				"name": "Knee Press Nightmare",
+				"input": "{charge} :b: :f::b::f:+[K]"
+			}
+		]
+	}
+}

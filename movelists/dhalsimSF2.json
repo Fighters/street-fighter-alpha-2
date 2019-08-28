@@ -1,0 +1,48 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Dhalsim (SF2)"
+		},
+		{
+			"region": "japan",
+			"roman": "Dhalsim (SF2)",
+			"original": "ダルシム"
+				}
+	],
+	"images": {
+		"face": "dhalsimSF2.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Yoga Smash",
+				"input": "{close} :b: {or} :f:+[MP]"
+			},
+			{
+				"name": "Yoga Throw",
+				"input": "{close} :b: {or} :f:+[HP]"
+			}
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Yoga Mummy",
+				"input": "{inAir} :d:+[HP]"
+			},
+			{
+				"name": "Drill Kick",
+				"input": "{inAir} :d:+[HK]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Yoga Fire",
+				"input": ":qcf:+[P]"
+			},
+			{
+				"name": "Yoga Flame",
+				"input": ":hcf:+[P]"
+			}
+		]
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Zangief (SF2)"
+		},
+		{
+			"region": "japan",
+			"roman": "Zangief (SF2)",
+			"original": "ザンギエフ"
+		}
+	],
+	"images": {
+		"face": "zangiefSF2.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Brain Buster",
+				"input": "{close} :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Head Bite",
+				"input": "{close} :b: {or} :f:+[MK] {or} [HK]"
+			},
+			{
+				"name": "Stomach Crunch",
+				"input": "{close} :df:+[MP] {or} [HP]"
+			}
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Double Knee Drop",
+				"input": "{duringAngledJump} :d:+[LK]"
+			},
+			{
+				"name": "Flying Body Press",
+				"input": "{duringAngledJump} :d:+[HP]"
+			},
+			{
+				"name": "Flying Head Butt",
+				"input": "{duringVerticalJump} :u:+[MP] {or} [HP]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Double Lariat",
+				"input": "[LP]+[MP]+[HP] ({use} :b: {or} :f: {toMove})"
+			},
+			{
+				"name": "Spinning Piledriver",
+				"input": ":360:+[P]"
+			}
+		]
+	}
+}

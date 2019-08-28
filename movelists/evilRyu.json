@@ -1,0 +1,83 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Evil Ryu"
+		},
+		{
+			"region": "japan",
+			"roman": "Evil Ryu",
+			"original": "殺意の波動に目覚めたリュウ"
+		}
+	],
+	"images": {
+		"face": "evilRyu.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Shoulder Throw",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Somersault Throw",
+				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+			}
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Collarbone Breaker",
+				"input": ":f:+[MP]"
+			},
+			{
+				"name": "Senpukyaku",
+				"input": ":f:+[MK]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Hadoken",
+				"input": ":qcf:+[P]"
+			},
+			{
+				"name": "Hado No Kamae",
+				"input": ":qcf:+[taunt]"
+			},
+			{
+				"name": "Shoryuken",
+				"input": ":dp:+[P]"
+			},
+			{
+				"name": "Tatsumaki Senpukyaku",
+				"input": ":qcb:+[K]"
+			},
+			{
+				"name": "Airborne Tatsumaki Senpukyaku",
+				"input": "{inAir} :qcb:+[K]"
+			},
+			{
+				"name": "Ashura Senku",
+				"input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+			}
+		],
+		"{super-combo}": [
+			{
+				"name": "Shinku Hadoken",
+				"input": ":qcf::qcf:+[P]"
+			},
+			{
+				"name": "Shinku Tatsumaki Senpukyaku",
+				"input": ":qcb::qcb:+[K]"
+			},
+			{
+				"name": "Messatsu Goshoryu",
+				"input": ":qcf::d::df:+[K]"
+			},
+			{
+				"name": "Shun Goku Satsu",
+				"input": "[LP] > [LP] > :f: > [LK] > [HP]",
+				"extraInfo": "{level3}"
+			}
+		]
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Sodom"
+		},
+		{
+			"region": "japan",
+			"roman": "Sodom",
+			"original": "ソドム"
+		}
+	],
+	"images": {
+		"face": "sodom.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Shogun Throw",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [MK] {or} [HP] {or} [HK]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Jigoku Scrape",
+				"input": ":qcf:+[P]"
+			},
+			{
+				"name": "Butsumetsu Buster",
+				"input": ":360:+[P]"
+			},
+			{
+				"name": "Daikyo Burning",
+				"input": ":360:+[K]"
+			},
+			{
+				"name": "Shiraha Catch",
+				"input": ":dp:+[K]"
+			}
+			{
+				"name": "Koten Okiagari",
+				"input": "{whenKnockedDown} :f::df::d:+[P]"
+			},
+			{
+				"name": "Tengu Walking",
+				"input": "{whenKnockedDown} :b::db::d:+[K]"
+			}
+		],
+		"{super-combo}": [
+			{
+				"name": "Meido No Miyage",
+				"input": ":qcf::qcf:+[P]"
+			},
+			{
+				"name": "Tenchusatsu",
+				"input": ":360::360:+[P]"
+			}
+		]
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Rose"
+		},
+		{
+			"region": "japan",
+			"roman": "Rose",
+			"original": "ローズ"
+		}
+	],
+	"images": {
+		"face": "rose.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Soul Drain",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],	
+		"{unique-attacks}": [
+			{
+				"name": "Slide",
+				"input": ":df:+[MK]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Soul Spark",
+				"input": ":hcf:+[P]"
+			},
+			{
+				"name": "Soul Throw",
+				"input": ":dp:+[P]"
+			},
+			{
+				"name": "Soul Reflect",
+				"input": ":qcb:+[P]"
+			},
+			{
+				"name": "Soul Spiral",
+				"input": ":qcf:+[K]"
+			}
+		],
+		"{super-combo}": [
+			{
+				"name": "Aura Soul Spark",
+				"input": ":qcb::qcb:+[P]"
+			},
+			{
+				"name": "Aura Soul Throw",
+				"input": ":qcf::d::df:+[P]"
+			},
+			{
+				"name": "Soul Illusion",
+				"input": ":qcf::d::df:+[K]"
+			}
+		]
+	}
+}

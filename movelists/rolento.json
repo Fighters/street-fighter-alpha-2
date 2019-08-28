@@ -1,0 +1,78 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Rolento"
+		},
+		{
+			"region": "japan",
+			"roman": "Rolento",
+			"original": "ロレント"
+		}
+	],
+	"images": {
+		"face": "rolento.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Colonel Carrier",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Deadly Package",
+				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+			}
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Fake Rod",
+				"input": ":f:+[MK]"
+			},
+			{
+				"name": "Spike Rod",
+				"input": "{inAir} :d:+[MK]"
+			},
+			{
+				"name": "High Jump",
+				"input": ":d::u:"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Patriot Circle",
+				"input": ":qcf:+[P] ({upTo3x})"
+			},
+			{
+				"name": "Stinger",
+				"input": ":dp:+[K] ({press} [P] {or} [K] {toAttack})"
+			},
+			{
+				"name": "Mekong Delta Air Raid",
+				"input": ":qcb:+[P] ({press} [P] {toAttack})"
+			},
+			{
+				"name": "Mekong Delta Escape",
+				"input": ":qcb:+[K] ({use} :b: {or} :f: {toChangeTrajectory})"
+			},
+			{
+				"name": "Mekong Delta Attack",
+				"input": "[LP]+[MP]+[HP] ({press} [P] {toAttack})"
+			},
+			{
+				"name": "Trick Landing",
+				"input": "{whileLanding} :b: {or} :n: {or} :f:+[LK]+[MK]+[HK]"
+			}
+		],
+		"{super-combo}": [
+			{
+				"name": "Take No Prisoner",
+				"input": ":qcf::d::df:+[K]"
+			},
+			{
+				"name": "Mine Sweeper",
+				"input": ":qcb::qcb:+[P]"
+			}
+		]
+	}
+}

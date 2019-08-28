@@ -1,0 +1,62 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Sakura"
+		},
+		{
+			"region": "japan",
+			"roman": "Sakura",
+			"original": "さくら"
+		}
+	],
+	"images": {
+		"face": "sakura.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Sakura-jime",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Sailor Shoot",
+				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+			}
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Flower Kick",
+				"input": ":f:+[MK]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Hadoken",
+				"input": ":qcf:+[P] ({tapPunch} {toCharge})"
+			},
+			{
+				"name": "Shouoken",
+				"input": ":dp:+[P]"
+			},
+			{
+				"name": "Shunpukyaku",
+				"input": ":qcb:+[K]"
+			}
+		],
+		"{super-combo}": [
+			{
+				"name": "Shinku Hadoken",
+				"input": ":qcf::qcf:+[P]"
+			},
+			{
+				"name": "Midare Zakura",
+				"input": ":qcf::d::df:+[K]"
+			},
+			{
+				"name": "Haru Ichiban",
+				"input": ":qcb::qcb:+[K]"
+			}
+		]
+	}
+}

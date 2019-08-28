@@ -1,0 +1,70 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Charlie"
+		},
+		{
+			"region": "japan",
+			"roman": "Nash",
+			"original": "ナッシュ"
+		}
+	],
+	"images": {
+		"face": "charlie.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Dragon Suplex",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Knee Gatling",
+				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+			},
+			{
+				"name": "Flying Buster Drop",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Spinning Back Knuckle",
+				"input": ":f:+[HP]"
+			},
+			{
+				"name": "Jumping Sobat",
+				"input": ":b: {or} :f:+[MK]"
+			},
+			{
+				"name": "Step Kick",
+				"input": ":b: {or} :f:+[HK]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Sonic Boom",
+				"input": "{charge} :b: :f:+[P]"
+			},
+			{
+				"name": "Somersault Shell",
+				"input": "{charge} :d: :u:+[K]"
+			}
+		],
+		"{super-combo}": [
+			{
+				"name": "Sonic Break",
+				"input": "{charge} :b: :f::b::f:+[P] ({tapPunch} {forMoreProjectiles})"
+			},
+			{
+				"name": "Crossfire Blitz",
+				"input": "{charge} :b: :f::b::f:+[K]"
+			},
+			{
+				"name": "Somersault Justice",
+				"input": "{charge} :db: :df::db::uf:+[K]"
+			}
+		]
+	}
+}

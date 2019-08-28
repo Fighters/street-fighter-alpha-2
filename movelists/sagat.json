@@ -1,0 +1,56 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Sagat"
+		},
+		{
+			"region": "japan",
+			"roman": "Sagat",
+			"original": "サガット"
+		}
+	],
+	"images": {
+		"face": "sagat.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Tiger Rage",
+				"input": "{close} :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Tiger Shot",
+				"input": ":qcf:+[P]"
+			},
+			{
+				"name": "Ground Tiger Shot",
+				"input": ":qcf:+[K]"
+			},
+			{
+				"name": "Tiger Blow",
+				"input": ":dp:+[P]"
+			},
+			{
+				"name": "Tiger Crush",
+				"input": ":dp:+[K]"
+			}
+		],
+		"{super-combo}": [
+			{
+				"name": "Tiger Cannon",
+				"input": ":qcf::qcf:+[P]"
+			},
+			{
+				"name": "Tiger Genocide",
+				"input": ":qcf::d::df:+[K]"
+			},
+			{
+				"name": "Tiger Raid",
+				"input": ":qcb::qcb:+[K]"
+			}
+		]
+	}
+}

@@ -1,0 +1,435 @@
+{
+	"romans": {
+		"regions": [
+			{ 
+				"region": "default",
+				"roman": "Street Fighter Alpha 2"
+			},
+			{
+				"region": "japan",
+				"roman": "Street Fighter Zero 2",
+				"original": "ストリートファイターZERO/2"
+			}
+		],
+		"also-known-as": [
+			"sfa2", "sfz2", "street alpha 2", "street zero 2", "alpha 2", "zero 2"
+		]
+	},
+	"platforms": [
+		{
+			"platform": "Arcade",
+			"regions": [
+				{
+					"region": "Japan",
+					"roman": "Street Fighter Zero 2",
+					"original": "ストリートファイターZERO/2",
+					"releaseDate": "02-27-1996",
+					"developer": "Capcom",
+					"publisher": "Capcom"
+				},
+				{
+					"region": "United States",
+					"roman": "Street Fighter Alpha 2",
+					"releaseDate": "03-06-1996",
+					"developer": "Capcom",
+					"publisher": "Capcom"
+				},
+				{
+					"region": "Europe",
+					"roman": "Street Fighter Zero 2",
+					"releaseDate": "02-29-1996",
+					"developer": "Capcom",
+					"publisher": "Capcom"
+				},
+				{
+					"region": "South America",
+					"roman": "Street Fighter Zero 2",
+					"releaseDate": "05-31-1996",
+					"developer": "Capcom",
+					"publisher": "Capcom"
+				}
+			]
+		},
+		{
+			"platform": "PlayStation",
+			"regions": [
+				{
+					"region": "Japan",
+					"roman": "Street Fighter Zero 2",
+					"original": "ストリートファイターZERO/2",
+					"releaseDate": "08-09-1996",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "ps1-jp-front.webp"
+				},
+				{
+					"region": "United States",
+					"roman": "Street Fighter Alpha 2",
+					"releaseDate": "09-30-1996",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "ps1-us-front.webp"
+				},
+				{
+					"region": "Europe",
+					"roman": "Street Fighter Alpha 2",
+					"releaseDate": "12-06-1996",
+					"developer": "Capcom",
+					"publisher": "Virgin Interactive",
+					"coverFront": "ps1-eu-front.webp"
+				}
+			]
+		},
+		{
+			"platform": "Saturn",
+			"regions": [
+				{
+					"region": "Japan",
+					"roman": "Street Fighter Zero 2",
+					"original": "ストリートファイターZERO/2",
+					"releaseDate": "09-14-1996",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "saturn-jp-front.webp"
+				},
+				{
+					"region": "United States",
+					"roman": "Street Fighter Alpha 2",
+					"releaseDate": "09-30-1996",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "saturn-us-front.webp"
+				},
+				{
+					"region": "Europe",
+					"roman": "Street Fighter Alpha 2",
+					"releaseDate": "11-16-1996",
+					"developer": "Capcom",
+					"publisher": "Virgin Interactive",
+					"coverFront": "saturn-eu-front.webp"
+				}
+			]
+		},
+		{
+			"platform": "PC",
+			"regions": [
+				{
+					"region": "United States",
+					"roman": "Street Fighter Alpha 2",
+					"releaseDate": "11-01-1997",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "pc-us-front.webp"
+				},
+				{
+					"region": "Japan",
+					"roman": "Street Fighter Zero 2",
+					"original": "ストリートファイターZERO/2",
+					"releaseDate": "03-12-1998",
+					"developer": "Capcom",
+					"publisher": "Capcom"
+				},
+				{
+					"region": "Europe",
+					"roman": "Street Fighter Alpha 2",
+					"releaseDate": "1998",
+					"developer": "Capcom",
+					"publisher": "Virgin Interactive",
+					"coverFront": "pc-eu-front.webp"
+				}
+			]
+		},
+		{
+			"platform": "Super Nintendo",
+			"regions": [
+				{
+					"region": "Japan",
+					"roman": "Street Fighter Zero 2",
+					"original": "ストリートファイターZERO/2",
+					"releaseDate": "12-20-1996",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "snes-jp-front.webp"
+				},
+				{
+					"region": "United States",
+					"roman": "Street Fighter Alpha 2",
+					"releaseDate": "11-1996",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "snes-us-front.webp"
+				},
+				{
+					"region": "Europe",
+					"roman": "Street Fighter Alpha 2",
+					"releaseDate": "12-19-1996",
+					"developer": "Capcom",
+					"publisher": "Nintendo",
+					"coverFront": "snes-eu-front.webp"
+				}
+			]
+		}
+	],
+	"characters": [
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Ryu"
+				},
+				{
+					"region": "japan",
+					"roman": "Ryu",
+					"original": "リュウ"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Ken Masters"
+				},
+				{
+					"region": "japan",
+					"roman": "Ken Masters",
+					"original": "ケン・マスターズ"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Chun-Li"
+				},
+				{
+					"region": "japan",
+					"roman": "Chun-Li",
+					"original": "チュンリー"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "M. Bison"
+				},
+				{
+					"region": "japan",
+					"roman": "Vega",
+					"original": "ベガ"
+				}
+			]
+		},        
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Sagat"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Sagat",
+                    "original": "サガット"
+                }
+            ]
+        },
+		{ 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Akuma"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Gouki",
+                    "original": "ゴウキ"
+                }
+            ]
+        },
+        { 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Charlie Nash"
+				},
+				{
+					"region": "japan",
+					"roman": "Charlie Nash",
+					"original": "チャーリー・ナッシュ"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Guy"
+				},
+				{
+					"region": "japan",
+					"roman": "Guy",
+					"original": "ガイ"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Birdie"
+				},
+				{
+					"region": "japan",
+					"roman": "Birdie",
+					"original": "バーディー"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Adon"
+				},
+				{
+					"region": "japan",
+					"roman": "Adon",
+					"original": "アドン"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Rose"
+				},
+				{
+					"region": "japan",
+					"roman": "Rose",
+					"original": "ローズ"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Dan Hibiki"
+				},
+				{
+					"region": "japan",
+					"roman": "Dan Hibiki",
+					"original": "火引 弾"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Sodom"
+				},
+				{
+					"region": "japan",
+					"roman": "Sodom",
+					"original": "ソドム"
+				}
+			]
+		},
+		{ 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Zangief"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Zangief",
+                    "original": "ザンギエフ"
+                }
+            ]
+        },
+        { 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Dhalsim"
+				},
+				{
+					"region": "japan",
+					"roman": "Dhalsim",
+					"original": "ダルシム"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Gen"
+				},
+				{
+					"region": "japan",
+					"roman": "Gen",
+					"original": "元"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Rolento F. Schugerg"
+				},
+				{
+					"region": "japan",
+					"roman": "Rolento F. Schugerg",
+					"original": "ロレント・F・シュゲルグ"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Sakura Kasugano"
+				},
+				{
+					"region": "japan",
+					"roman": "Sakura Kasugano",
+					"original": "春日野 さくら"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Evil Ryu"
+				},
+				{
+					"region": "japan",
+					"roman": "Satsui no Hado ni Mezameta Ryu",
+					"original": "殺意の波動に目覚めたリュウ"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Shin Akuma"
+				},
+				{
+					"region": "japan",
+					"roman": "Shin Gouki",
+					"original": "真・豪鬼"
+				}
+			]
+		}
+    ]
+}

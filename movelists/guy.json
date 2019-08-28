@@ -1,0 +1,99 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Guy"
+		},
+		{
+			"region": "japan",
+			"roman": "Guy",
+			"original": "ガイ"
+		}
+	],
+	"images": {
+		"face": "guy.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Shoulder Throw",
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+			},
+			{
+				"name": "Grab Throw",
+				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+			},
+			{
+				"name": "Bushinryu Seoi Nage",
+				"input": ":f::uf::u::ub::b:+[MP] {or} [HP]",
+				"after": "Grab Throw"
+			},
+			{
+				"name": "Izuna Otoshi",
+				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Neck Breaker",
+				"input": ":f:+[MP]"
+			},
+			{
+				"name": "Ninja Sickle",
+				"input": ":df:+[HK]"
+			},
+			{
+				"name": "Elbow Drop",
+				"input": "{inAir} :d:+[MP]"
+			},
+			{
+				"name": "Bushin Gokusaken",
+				"input": "[LP] > [MP] > [HP] > [HK]"
+			}
+			{
+				"name": "Wall Jump",
+				"input": "{duringJumpNearWall} :f:"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Bushin Izuna Otoshi",
+				"input": ":qcf:+[P] {then}, {close}, {press} [P]"
+			},
+			{
+				"name": "Bushin Elbow Drop",
+				"input": ":qcf:+[P] {then}, {far}, {press} [P]"
+			},
+			{
+				"name": "Hayagake: Kyuteishi",
+				"input": ":qcf:+[LK], {then} {press} [K]"
+			},
+			{
+				"name": "Hayagake: Kage Sukui",
+				"input": ":qcf:+[MK], {then} {press} [K]"
+			},
+			{
+				"name": "Hayagake: Kubikari",
+				"input": ":qcf:+[HK], {then} {press} [K]"
+			},
+			{
+				"name": "Hozanto",
+				"input": ":qcb:+[P]"
+			},
+			{
+				"name": "Bushin Senpukyaku",
+				"input": ":qcb:+[K]"
+			}
+		],
+		"{super-combo}": [
+			{
+				"name": "Bushin Hassoken",
+				"input": ":qcf::d::df:+[P]"
+			},
+			{
+				"name": "Bushin Goraikyaku",
+				"input": ":qcf::d::df:+[K]"
+			}
+		]
+	}
+}
