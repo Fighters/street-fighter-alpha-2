@@ -14,7 +14,7 @@
 		"face": "adon.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Jaguar Carry",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
@@ -24,7 +24,7 @@
 				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
 			}
 		],	
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Jaguar Crunch",
 				"input": ":f:+[MP]"
@@ -34,7 +34,7 @@
 				"input": ":df:+[MK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Jaguar Kick",
 				"input": ":qcf:+[K]"
@@ -48,7 +48,7 @@
 				"input": ":hcb:+[K]"
 			}
 		],
-		"{super-combo}": [
+		"{superCombos}": [
 			{
 				"name": "Jaguar Revolver",
 				"input": ":qcf::qcf:+[K]"

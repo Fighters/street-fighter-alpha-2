@@ -14,7 +14,7 @@
 		"face": "rolento.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Colonel Carrier",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
@@ -24,7 +24,7 @@
 				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
 			}
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Fake Rod",
 				"input": ":f:+[MK]"
@@ -38,7 +38,7 @@
 				"input": ":d::u:"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Patriot Circle",
 				"input": ":qcf:+[P] ({upTo3x})"
@@ -64,7 +64,7 @@
 				"input": "{whileLanding} :b: {or} :n: {or} :f:+[LK]+[MK]+[HK]"
 			}
 		],
-		"{super-combo}": [
+		"{superCombos}": [
 			{
 				"name": "Take No Prisoner",
 				"input": ":qcf::d::df:+[K]"

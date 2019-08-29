@@ -14,7 +14,7 @@
 		"face": "ken.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Hell Wheel",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
@@ -28,13 +28,13 @@
 				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
 			}	
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Inazuma Kick",
 				"input": ":f:+[MK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Hadoken",
 				"input": ":qcf:+[P]"
@@ -60,7 +60,7 @@
 				"input": ":qcf:+[taunt]"
 			}
 		],
-		"{super-combo}": [
+		"{superCombos}": [
 			{
 				"name": "Shoryureppa",
 				"input": ":qcf::d::df:+[P]"

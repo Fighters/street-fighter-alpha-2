@@ -14,7 +14,7 @@
 		"face": "evilRyu.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Shoulder Throw",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
@@ -24,7 +24,7 @@
 				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
 			}
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Collarbone Breaker",
 				"input": ":f:+[MP]"
@@ -34,7 +34,7 @@
 				"input": ":f:+[MK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Hadoken",
 				"input": ":qcf:+[P]"
@@ -60,7 +60,7 @@
 				"input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
 			}
 		],
-		"{super-combo}": [
+		"{superCombos}": [
 			{
 				"name": "Shinku Hadoken",
 				"input": ":qcf::qcf:+[P]"

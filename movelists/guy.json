@@ -14,7 +14,7 @@
 		"face": "guy.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Shoulder Throw",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
@@ -33,7 +33,7 @@
 				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
 			}
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Neck Breaker",
 				"input": ":f:+[MP]"
@@ -55,7 +55,7 @@
 				"input": "{duringJumpNearWall} :f:"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Bushin Izuna Otoshi",
 				"input": ":qcf:+[P] {then}, {close}, {press} [P]"
@@ -85,7 +85,7 @@
 				"input": ":qcb:+[K]"
 			}
 		],
-		"{super-combo}": [
+		"{superCombos}": [
 			{
 				"name": "Bushin Hassoken",
 				"input": ":qcf::d::df:+[P]"

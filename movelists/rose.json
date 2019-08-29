@@ -14,19 +14,19 @@
 		"face": "rose.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Soul Drain",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
 			}
 		],	
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Slide",
 				"input": ":df:+[MK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Soul Spark",
 				"input": ":hcf:+[P]"
@@ -44,7 +44,7 @@
 				"input": ":qcf:+[K]"
 			}
 		],
-		"{super-combo}": [
+		"{superCombos}": [
 			{
 				"name": "Aura Soul Spark",
 				"input": ":qcb::qcb:+[P]"

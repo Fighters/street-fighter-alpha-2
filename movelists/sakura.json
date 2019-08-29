@@ -14,7 +14,7 @@
 		"face": "sakura.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Sakura-jime",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
@@ -24,13 +24,13 @@
 				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
 			}
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Flower Kick",
 				"input": ":f:+[MK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Hadoken",
 				"input": ":qcf:+[P] ({tapPunch} {toCharge})"
@@ -44,7 +44,7 @@
 				"input": ":qcb:+[K]"
 			}
 		],
-		"{super-combo}": [
+		"{superCombos}": [
 			{
 				"name": "Shinku Hadoken",
 				"input": ":qcf::qcf:+[P]"

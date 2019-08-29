@@ -14,7 +14,7 @@
 		"face": "akuma.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Shoulder Throw",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
@@ -24,7 +24,7 @@
 				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
 			}
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Zugaihasatsu",
 				"input": ":f:+[MP]"
@@ -38,7 +38,7 @@
 				"input": "{duringForwardJump}, {atJumpApex} :d:+[MK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Gohadoken",
 				"input": ":qcf:+[P]"
@@ -103,7 +103,7 @@
 				"input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
 			}
 		],
-		"{super-combos}": [
+		"{superComboss}": [
 			{
 				"name": "Messatsu Gohado",
 				"input": ":hcb::hcb:+[P]"

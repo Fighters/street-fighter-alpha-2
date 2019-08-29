@@ -14,13 +14,13 @@
 		"face": "sodom.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Shogun Throw",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [MK] {or} [HP] {or} [HK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Jigoku Scrape",
 				"input": ":qcf:+[P]"
@@ -46,7 +46,7 @@
 				"input": "{whenKnockedDown} :b::db::d:+[K]"
 			}
 		],
-		"{super-combo}": [
+		"{superCombos}": [
 			{
 				"name": "Meido No Miyage",
 				"input": ":qcf::qcf:+[P]"

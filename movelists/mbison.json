@@ -14,7 +14,7 @@
 		"face": "mbison.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Deadly Throw",
 				"input": "{close} :b: {or} :f:+[MP] {or} [HP]"
@@ -24,7 +24,7 @@
 				"input": "{inAirAndClose} :b: {or} :f:+[MP] {or} [HP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Psycho Shot",
 				"input": "{charge} :b: :f:+[P]"
@@ -51,7 +51,7 @@
 				"input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
 			}
 		],
-		"{super-combo}": [
+		"{superCombos}": [
 			{
 				"name": "Psycho Crusher",
 				"input": "{charge} :b: :f::b::f:+[P]"

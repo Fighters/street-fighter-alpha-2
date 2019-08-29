@@ -14,7 +14,7 @@
 		"face": "gen.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Shuraku",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
@@ -24,7 +24,7 @@
 				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
 			}
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Change Style: Mantis",
 				"input": "[LP]+[MP]+[HP] ({airOK})"
@@ -38,7 +38,7 @@
 				"input": "{inAir} [HK] > [HK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "[Mantis] Hyakurenko",
 				"input": "{tapPunch}"
@@ -91,7 +91,7 @@
 				"after": "[Crane] Ceiling Jump"
 			}
 		],
-		"{super-combo}": [
+		"{superCombos}": [
 			{
 				"name": "[Mantis] Zan'ei",
 				"input": ":qcf::qcf:+[P]"

@@ -14,7 +14,7 @@
 		"face": "dhalsim.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Yoga Smash",
 				"input": "{close} :b: {or} :f:+[MP]"
@@ -24,7 +24,7 @@
 				"input": "{close} :b: {or} :f:+[HP]"
 			}
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Short Limb",
 				"input": ":b: {or} :db:+[P] {or} [K]"
@@ -50,7 +50,7 @@
 				"input": "{inAir} {press} [taunt]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Yoga Fire",
 				"input": ":qcf:+[P]"
@@ -72,7 +72,7 @@
 				"input": "{whenKnockedDown} :b::db::d:+[K]"
 			}
 		],
-		"{super-combo}": [
+		"{superCombos}": [
 			{
 				"name": "Yoga Inferno",
 				"input": ":qcf::qcf:+[P]"

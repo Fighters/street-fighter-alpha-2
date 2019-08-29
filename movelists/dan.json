@@ -14,13 +14,13 @@
 		"face": "dan.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Shoulder Throw",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
 			}
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Ducking Taunt",
 				"input": ":d:+[taunt]"
@@ -30,7 +30,7 @@
 				"input": "{inAir} [taunt]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Gadoken",
 				"input": ":qcf:+[P]"
@@ -48,7 +48,7 @@
 				"input": ":qcf: {or} :qcb:+[taunt]"
 			}
 		],
-		"{super-combo}": [
+		"{superCombos}": [
 			{
 				"name": "Shinku Gadoken",
 				"input": ":qcf::qcf:+[P]"

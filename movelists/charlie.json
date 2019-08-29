@@ -14,7 +14,7 @@
 		"face": "charlie.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Dragon Suplex",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
@@ -28,7 +28,7 @@
 				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
 			}
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Spinning Back Knuckle",
 				"input": ":f:+[HP]"
@@ -42,7 +42,7 @@
 				"input": ":b: {or} :f:+[HK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Sonic Boom",
 				"input": "{charge} :b: :f:+[P]"
@@ -52,7 +52,7 @@
 				"input": "{charge} :d: :u:+[K]"
 			}
 		],
-		"{super-combo}": [
+		"{superCombos}": [
 			{
 				"name": "Sonic Break",
 				"input": "{charge} :b: :f::b::f:+[P] ({tapPunch} {forMoreProjectiles})"

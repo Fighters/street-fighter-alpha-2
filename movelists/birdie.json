@@ -14,7 +14,7 @@
 		"face": "birdie.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Bull Spike",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
@@ -24,13 +24,13 @@
 				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
 			}
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Body Slam",
 				"input": "{inAir} :d:+[HP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Bull Horn",
 				"input": "{hold} [P]+[P] {or} [K]+[K] {then} {release}"
@@ -48,7 +48,7 @@
 				"input": ":360:+[K]"
 			}
 		],
-		"{super-combo}": [
+		"{superCombos}": [
 			{
 				"name": "The Birdie",
 				"input": "{charge} :b: :f::b::f:+[P]"
