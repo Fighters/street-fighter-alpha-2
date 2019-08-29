@@ -53,7 +53,7 @@
 			},
 			{
 				"name": "Bull Revenger",
-				"input": ":qcd::d::df:+[P] {or} [K]"
+				"input": ":qcf::d::df:+[P] {or} [K]"
 			}
 		]
 	}
