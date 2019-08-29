@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Akuma"
 		},
-		{
- 			"region": "japan",
+		"japan": {
 			"roman": "Gouki",
 			"original": "ゴウキ"
 		}
-	],
+	},
 	"images": {
 		"face": "akuma.webp"
 	},
@@ -124,13 +122,14 @@
 		]
 	},
 	"custom_strings": {
-		"english": [
-			{ "noCorner": "does not work if the opponent is in the corner"},
-			{ "onlyOnGroundedOpponent": "only works on grounded opponent"}
-		],
-		"portuguese": [
-			{ "noCorner": "não funciona com o oponente no canto"},
-			{ "onlyOnGroundedOpponent": "só funciona com o oponente no chão"}
-		]
+		"english": {
+			"noCorner": "does not work if the opponent is in the corner",
+			"onlyOnGroundedOpponent": "only works on grounded opponent"
+		},
+		
+		"portuguese":{
+			"noCorner": "não funciona com o oponente no canto",
+			"onlyOnGroundedOpponent": "só funciona com o oponente no chão"
+		}
 	}
 }

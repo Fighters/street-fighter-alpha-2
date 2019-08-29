@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Zangief (SF2)"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Zangief (SF2)",
 			"original": "ザンギエフ"
 		}
-	],
+	},
 	"images": {
 		"face": "zangiefSF2.webp"
 	},

@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Dan"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Dan",
 			"original": "弾"
 		}
-	],
+	},
 	"images": {
 		"face": "dan.webp"
 	},

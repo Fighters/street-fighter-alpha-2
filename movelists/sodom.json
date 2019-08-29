@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Sodom"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Sodom",
 			"original": "ソドム"
 		}
-	],
+	},
 	"images": {
 		"face": "sodom.webp"
 	},

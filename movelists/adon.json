@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Adon"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Adon",
 			"original": "アドン"
 		}
-	],
+	},
 	"images": {
 		"face": "adon.webp"
 	},
@@ -72,11 +70,11 @@
 		]
 	},
 	"custom_strings": {
-		"english": [
-			{ "jvaLevel3": "only during the level 3 version of Jaguar Varied Assault"}
-		],
-		"portuguese": [
-			{ "jvaLevel3": "somente durante a versão nível 3 do Jaguar Varied Assault"}
-		]
+		"english": {
+			"jvaLevel3": "only during the level 3 version of Jaguar Varied Assault"
+		},		
+		"portuguese": {
+			"jvaLevel3": "somente durante a versão nível 3 do Jaguar Varied Assault"
+		}		
 	}
 }

@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Gen"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Gen",
 			"original": "元"
 		}
-	],
+	},
 	"images": {
 		"face": "gen.webp"
 	},
@@ -48,7 +46,7 @@
 				"input": ":dp:+[K] ({tapKick} {forMoreHits})"
 			},
 			{
-				"name": "[Crane] Jasen",
+				"name": "[Crane] Jyasen",
 				"input": "{charge} :b: :f:+[P]"
 			},
 			{

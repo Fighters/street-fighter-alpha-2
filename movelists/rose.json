@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Rose"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Rose",
 			"original": "ローズ"
 		}
-	],
+	},
 	"images": {
 		"face": "rose.webp"
 	},

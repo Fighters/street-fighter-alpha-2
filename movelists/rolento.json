@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Rolento"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Rolento",
 			"original": "ロレント"
 		}
-	],
+	},
 	"images": {
 		"face": "rolento.webp"
 	},

@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Guy"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Guy",
 			"original": "ガイ"
 		}
-	],
+	},
 	"images": {
 		"face": "guy.webp"
 	},

@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Dhalsim (SF2)"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Dhalsim (SF2)",
 			"original": "ダルシム"
-				}
-	],
+		}
+	},
 	"images": {
 		"face": "dhalsimSF2.webp"
 	},

@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Birdie"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Birdie",
 			"original": "バーディー"
 		}
-	],
+	},
 	"images": {
 		"face": "birdie.webp"
 	},
