@@ -140,7 +140,7 @@
 				"name": "[Crane] Right Wall Kick",
 				"input": "[HK]",
 				"after": "[Crane] Koga"
-			}
+			},
 			{
 				"name": "[Crane] Second Kick",
 				"input": "[MK] {or} {doNothing}",
