@@ -49,6 +49,10 @@
 				"input": "[LP] > [MP] > [HP] > [HK]"
 			},
 			{
+				"name": "Target Combo",
+				"input": "[MP] > [HP]"
+			},
+			{
 				"name": "Wall Jump",
 				"input": "{duringJumpNearWall} :f:"
 			}
