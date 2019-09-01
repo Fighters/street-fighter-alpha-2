@@ -47,7 +47,7 @@
 			{
 				"name": "Bushin Gokusaken",
 				"input": "[LP] > [MP] > [HP] > [HK]"
-			}
+			},
 			{
 				"name": "Wall Jump",
 				"input": "{duringJumpNearWall} :f:"
@@ -61,6 +61,10 @@
 			{
 				"name": "Bushin Elbow Drop",
 				"input": ":qcf:+[P] {then}, {far}, {press} [P]"
+			},
+			{
+				"name": "Hayagake",
+				"input": ":qcf:+[K]"
 			},
 			{
 				"name": "Hayagake: Kyuteishi",
