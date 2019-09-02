@@ -14,7 +14,7 @@
 	"moves": {
 		"{normalThrows}": [
 			{
-				"name": "Sakura-jime",
+				"name": "Sakura-Jime",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
 			},
 			{
