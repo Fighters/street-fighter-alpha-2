@@ -1,80 +1,88 @@
 {
-	"names": {
-		"default": {
-			"roman": "Zangief"
-		},
-		"japan": {
-			"roman": "Zangief",
-			"original": "ザンギエフ"
-		}
-	},
-	"images": {
-		"face": "zangief.webp"
-	},
-	"moves": {
-		"{normalThrows}": [
-			{
-				"name": "Brain Buster",
-				"input": "{close} :b: {or} :f:+[MP] {or} [HP]"
-			},
-			{
-				"name": "Head Bite",
-				"input": "{close} :b: {or} :f:+[MK] {or} [HK]"
-			},
-			{
-				"name": "Stomach Crunch",
-				"input": "{close} :df:+[MP] {or} [HP]"
-			}
-		],
-		"{uniqueAttacks}": [
-			{
-				"name": "Double Knee Drop",
-				"input": "{duringAngledJump} :d:+[LK]"
-			},
-			{
-				"name": "Flying Body Press",
-				"input": "{duringAngledJump} :d:+[HP]"
-			},
-			{
-				"name": "Flying Head Butt",
-				"input": "{duringVerticalJump} :u:+[MP] {or} [HP]"
-			}
-		],
-		"{specialMoves}": [
-			{
-				"name": "Double Lariat",
-				"input": "[LP]+[MP]+[HP] ({use} :b: {or} :f: {toMove})"
-			},
-			{
-				"name": "Quick Double Lariat",
-				"input": "[LK]+[MK]+[HK] ({use} :b: {or} :f: {toMove})"
-			},
-			{
-				"name": "Spinning Piledriver",
-				"input": ":360:+[P]"
-			},
-			{
-				"name": "Flying Powerbomb",
-				"input": "{far}, :360:+[K]"
-			},
-			{
-				"name": "Atomic Suplex",
-				"input": "{close}, :360:+[K]"
-			},
-			{
-				"name": "Banishing Flat",
-				"input": ":dp:+[P]"
-			}
-		],
-		"{superCombos}": [
-			{
-				"name": "Final Atomic Buster",
-				"input": ":360::360:+[P]"
-			},
-			{
-				"name": "Aerial Russian Slam",
-				"input": ":qcf::d::df:+[K]"
-			}
-		]
-	}
+  "names": {
+    "default": {
+      "roman": "Zangief"
+    },
+    "japan": {
+      "roman": "Zangief",
+      "original": "ザンギエフ"
+    }
+  },
+  "images": {
+    "face": "zangief.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Brain Buster",
+        "input": "{close} :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Head Bite",
+        "input": "{close} :b: {or} :f:+[MK] {or} [HK]"
+      },
+      {
+        "name": "Stomach Crunch",
+        "input": "{close} :df:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Dynamite Kick",
+        "input": ":db:+[MK]"
+      },
+      {
+        "name": "Russian Kick",
+        "input": ":db:+[HK]"
+      },
+      {
+        "name": "Double Knee Drop",
+        "input": "{duringAngledJump} :d:+[LK]"
+      },
+      {
+        "name": "Flying Body Press",
+        "input": "{duringAngledJump} :d:+[HP]"
+      },
+      {
+        "name": "Flying Head Butt",
+        "input": "{duringVerticalJump} :u:+[MP] {or} [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Double Lariat",
+        "input": "[LP]+[MP]+[HP] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "Quick Double Lariat",
+        "input": "[LK]+[MK]+[HK] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "Spinning Piledriver",
+        "input": ":360:+[P]"
+      },
+      {
+        "name": "Flying Powerbomb",
+        "input": "{far}, :360:+[K]"
+      },
+      {
+        "name": "Atomic Suplex",
+        "input": "{close}, :360:+[K]"
+      },
+      {
+        "name": "Banishing Flat",
+        "input": ":dp:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Final Atomic Buster",
+        "input": ":360::360:+[P]"
+      },
+      {
+        "name": "Aerial Russian Slam",
+        "input": ":qcf::d::df:+[K]"
+      }
+    ]
+  }
 }

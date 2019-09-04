@@ -34,7 +34,7 @@
 			{
 				"name": "Shiraha Catch",
 				"input": ":dp:+[K]"
-			}
+			},
 			{
 				"name": "Koten Okiagari",
 				"input": "{whenKnockedDown} :f::df::d:+[P]"
