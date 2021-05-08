@@ -33,7 +33,7 @@
 			},
 			{
 				"name": "Tenmakujinkyaku",
-				"input": "{duringForwardJump}, {atJumpApex} :d:+[MK]"
+				"input": "{duringForwardJump}, {atJumpApex}, :d:+[MK]"
 			}
 		],
 		"{specialMoves}": [
@@ -47,7 +47,7 @@
 			},
 			{
 				"name": "Zanku Hadoken",
-				"input": "{inAir} :qcf:+[P]"
+				"input": "{inAir}, :qcf:+[P]"
 			},
 			{
 				"name": "Goshoryuken",
@@ -59,7 +59,7 @@
 			},
 			{
 				"name": "Airborne Tatsumaki Zankukyaku",
-				"input": "{inAir} :qcb:+[K]"
+				"input": "{inAir}, :qcb:+[K]"
 			},
 			{
 				"name": "Hyakkishu",
@@ -72,23 +72,23 @@
 			},
 			{
 				"name": "Hyakki Gosho",
-				"input": "[P]",
+				"input": "{press} [P]",
 				"after": "Hyakkishu"
 			},
 			{
 				"name": "Hyakki Gosen",
-				"input": "[K]",
+				"input": "{press} [K]",
 				"after": "Hyakkishu"
 			},
 			{
 				"name": "Hyakki Gosai",
-				"input": "{nearOpponentHead} :b: {or} :f:+[P]",
+				"input": "{nearOpponentHead}, :b: {or} :f:+[P]",
 				"after": "Hyakkishu",
 				"extraInfo": "{noCorner}, {onlyOnGroundedOpponent}"
 			},
 			{
 				"name": "Hyakki Gotsui",
-				"input": "{close} :b: {or} :f:+[K]",
+				"input": "{close}, :b: {or} :f:+[K]",
 				"after": "Hyakkishu",
 				"extraInfo": "{noCorner}"
 			},
@@ -97,8 +97,12 @@
 				"input": ":qcb:+[P]"
 			},
 			{
-				"name": "Ashura Senku",
-				"input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+				"name": "Ashura Senku (Forward)",
+				"input": ":dp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+			},
+			{
+				"name": "Ashura Senku (Back)",
+				"input": ":rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
 			}
 		],
 		"{superComboss}": [
@@ -112,7 +116,7 @@
 			},
 			{
 				"name": "Tenma Gozanku",
-				"input": "{inAir} :qcf::qcf:+[P]"
+				"input": "{inAir}, :qcf::qcf:+[P]"
 			},
 			{
 				"name": "Shun Goku Satsu",
