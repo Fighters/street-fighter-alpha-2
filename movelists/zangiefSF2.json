@@ -36,7 +36,7 @@
 				"input": "{duringAngledJump}, :d:+[HP]"
 			},
 			{
-				"name": "Flying Head Butt",
+				"name": "Head Butt",
 				"input": "{duringVerticalJump}, :u:+[MP] {or} [HP]"
 			}
 		],
