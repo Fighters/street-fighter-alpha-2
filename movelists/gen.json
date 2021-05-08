@@ -25,15 +25,15 @@
 		"{uniqueAttacks}": [
 			{
 				"name": "Change Style: Mantis",
-				"input": "[LP]+[MP]+[HP] ({airOK})"
+				"input": "{press} [LP]+[MP]+[HP] ({airOK})"
 			},
 			{
 				"name": "Change Style: Crane",
-				"input": "[LK]+[MK]+[HK] ({airOK})"
+				"input": "{press} [LK]+[MK]+[HK] ({airOK})"
 			},
 			{
 				"name": "[Crane] Shakudan",
-				"input": "{inAir} [HK] > [HK]"
+				"input": "{inAir}, [HK] > [HK]"
 			}
 		],
 		"{specialMoves}": [
@@ -104,51 +104,51 @@
 			},
 			{
 				"name": "[Crane] Koga",
-				"input": "{inAir} :qcb::qcb:+[K]"
+				"input": "{inAir}, :qcb::qcb:+[K]"
 			},
 			{
 				"name": "[Crane] Left Wall Kick",
-				"input": "[LK]",
+				"input": "{press} [LK]",
 				"after": "[Crane] Koga"
 			},
 			{
 				"name": "[Crane] Second Kick",
-				"input": "[MK] {or} {doNothing}",
+				"input": "{press} [MK] {or} {doNothing}",
 				"after": "[Crane] Left Wall Kick"
 			},
 			{
 				"name": "[Crane] Long Kick",
-				"input": "[HK]",
+				"input": "{press} [HK]",
 				"after": "[Crane] Left Wall Kick"
 			},
 			{
 				"name": "[Crane] Ceiling Stomp",
-				"input": "[MK]",
+				"input": "{press} [MK]",
 				"after": "[Crane] Koga"
 			},
 			{
 				"name": "[Crane] Left Wall Dive",
-				"input": "[LK]",
+				"input": "{press} [LK]",
 				"after": "[Crane] Ceiling Stomp"
 			},
 			{
 				"name": "[Crane] Right Wall Dive",
-				"input": "[HK]",
+				"input": "{press} [HK]",
 				"after": "[Crane] Ceiling Stomp"
 			},
 			{
 				"name": "[Crane] Right Wall Kick",
-				"input": "[HK]",
+				"input": "{press} [HK]",
 				"after": "[Crane] Koga"
 			},
 			{
 				"name": "[Crane] Second Kick",
-				"input": "[MK] {or} {doNothing}",
+				"input": "{press} [MK] {or} {doNothing}",
 				"after": "[Crane] Right Wall Kick"
 			},
 			{
 				"name": "[Crane] Long Kick",
-				"input": "[LK]",
+				"input": "{press} [LK]",
 				"after": "[Crane] Right Wall Kick"
 			}
 		]
