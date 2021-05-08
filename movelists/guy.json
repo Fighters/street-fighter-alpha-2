@@ -42,7 +42,7 @@
 			},
 			{
 				"name": "Elbow Drop",
-				"input": "{inAir} :d:+[MP]"
+				"input": "{inAir}, :d:+[MP]"
 			},
 			{
 				"name": "Bushin Gokusaken",
@@ -54,7 +54,7 @@
 			},
 			{
 				"name": "Wall Jump",
-				"input": "{duringJumpNearWall} :f:"
+				"input": "{duringJumpNearWall}, :f:"
 			}
 		],
 		"{specialMoves}": [
