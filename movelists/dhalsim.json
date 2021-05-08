@@ -15,11 +15,11 @@
 		"{normalThrows}": [
 			{
 				"name": "Yoga Smash",
-				"input": "{close} :b: {or} :f:+[MP]"
+				"input": "{close}, :b: {or} :f:+[MP]"
 			},
 			{
 				"name": "Yoga Throw",
-				"input": "{close} :b: {or} :f:+[HP]"
+				"input": "{close}, :b: {or} :f:+[HP]"
 			}
 		],
 		"{uniqueAttacks}": [
@@ -37,15 +37,15 @@
 			},
 			{
 				"name": "Yoga Mummy",
-				"input": "{inAir} :d:+[HP]"
+				"input": "{inAir}, :d:+[HP]"
 			},
 			{
 				"name": "Drill Kick",
-				"input": "{inAir} :d:+[K]"
+				"input": "{inAir}, :d:+[K]"
 			},
 			{
 				"name": "Jumping Taunt",
-				"input": "{inAir} {press} [taunt]"
+				"input": "{inAir}, {press} [taunt]"
 			}
 		],
 		"{specialMoves}": [
@@ -62,12 +62,16 @@
 				"input": ":hcb:+[K]"
 			},
 			{
-				"name": "Yoga Teleport",
-				"input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK] ({airOK})"
+				"name": "Yoga Teleport (Forward)",
+				"input": ":dp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK] ({airOK})"
+			},
+			{
+				"name": "Yoga Teleport (Back)",
+				"input": ":rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK] ({airOK})"
 			},
 			{
 				"name": "Yoga Escape",
-				"input": "{whenKnockedDown} :b::db::d:+[K]"
+				"input": "{whenKnockedDown}, :b::db::d:+[K]"
 			}
 		],
 		"{superCombos}": [
