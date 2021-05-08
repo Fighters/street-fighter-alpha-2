@@ -51,11 +51,15 @@
 			},
 			{
 				"name": "Airborne Tatsumaki Senpukyaku",
-				"input": "{inAir} :qcb:+[K]"
+				"input": "{inAir}, :qcb:+[K]"
 			},
 			{
-				"name": "Ashura Senku",
-				"input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+				"name": "Ashura Senku (Forward)",
+				"input": ":dp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+			},
+			{
+				"name": "Ashura Senku (Back)",
+				"input": ":rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
 			}
 		],
 		"{superCombos}": [
