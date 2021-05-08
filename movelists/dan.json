@@ -25,7 +25,7 @@
 			},
 			{
 				"name": "Jumping Taunt",
-				"input": "{inAir} [taunt]"
+				"input": "{inAir}, [taunt]"
 			}
 		],
 		"{specialMoves}": [
@@ -42,8 +42,12 @@
 				"input": ":qcb:+[K]"
 			},
 			{
-				"name": "Rolling Taunt",
-				"input": ":qcf: {or} :qcb:+[taunt]"
+				"name": "Rolling Taunt (Forward)",
+				"input": ":qcf:+[taunt]"
+			},
+			{
+				"name": "Rolling Taunt (Back)",
+				"input": ":qcb:+[taunt]"
 			}
 		],
 		"{superCombos}": [
