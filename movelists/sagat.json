@@ -15,7 +15,7 @@
 		"{normalThrows}": [
 			{
 				"name": "Tiger Rage",
-				"input": "{close} :b: {or} :f:+[MP] {or} [HP]"
+				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
 			}
 		],
 		"{specialMoves}": [
